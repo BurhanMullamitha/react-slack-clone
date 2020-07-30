@@ -4,6 +4,8 @@ import './index.css';
 import App from './components/App';
 import * as serviceWorker from './serviceWorker';
 
+import "semantic-ui-css/semantic.min.css";
+
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Login from './components/Auth/Login';
 import Register from './components/Auth/Register';
@@ -19,10 +21,8 @@ const Root = () => (
 );
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Root />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <Root />,
+    document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change
