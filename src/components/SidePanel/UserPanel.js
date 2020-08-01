@@ -54,8 +54,6 @@ class UserPanel extends React.Component {
                                 options={this.dropDownOptions()} />
                         </Header>
                     </Grid.Row>
-                    
-                    
                 </Grid.Column>
             </Grid>
         );
