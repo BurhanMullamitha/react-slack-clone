@@ -6,7 +6,7 @@ class MessagesHeader extends React.Component {
         return (
             <Segment clearing>
                 {/* CHANNEL TITLE */}
-                <Header fluid as="h3" floated="left" style={{ marginBottom: 0 }}>
+                <Header fluid="true" as="h3" floated="left" style={{ marginBottom: 0 }}>
                     <span>
                         Channel
                         <Icon name="star outline" color="black" />
