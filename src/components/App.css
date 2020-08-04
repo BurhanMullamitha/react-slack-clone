@@ -13,6 +13,11 @@ body,
     background-color: #eee;
 }
 
+/* SIDE PANEL */
+.menu {
+    padding-bottom: 2em;
+}
+
 /* MESSAGES */
 .messages {
     height: 73vh;
