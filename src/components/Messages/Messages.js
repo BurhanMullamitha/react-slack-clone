@@ -53,7 +53,7 @@ class Messages extends React.Component {
             <>
                 <MessagesHeader />
                 
-                <Segment style={{ overflow: 'auto' }}>
+                <Segment style={{ overflowY: 'scroll', maxHeight: '73vh' }}>
                     <Comment.Group className="messages">
                         {/* MESSAGES */}
                         {this.displayMessages(messages)}
