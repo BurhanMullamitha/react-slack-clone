@@ -48,7 +48,6 @@ class Channels extends React.Component {
         let lastTotal = 0;
         
         let index = notifications.findIndex(notification => notification.id === channelId);
-        console.log(index);
         if(index !== -1) {
             if(channelId !== currentChannelId) {
                 lastTotal = notifications[index].total;
