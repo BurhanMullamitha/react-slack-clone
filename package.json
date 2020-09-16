@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^12.1.5",
     "emoji-mart": "^3.0.0",
     "firebase": "^7.20.0",
-    "md5": "^2.2.1",
+    "md5": "^2.3.0",
     "mime-types": "^2.1.27",
     "moment": "^2.27.0",
     "react": "^16.13.1",
